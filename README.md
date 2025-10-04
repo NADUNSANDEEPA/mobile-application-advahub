@@ -1,2 +1,1 @@
-# mobile-application-advahub
-Mobility Module - AdvaHub 
+# mobility-advahub
