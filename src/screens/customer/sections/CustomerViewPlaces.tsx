@@ -9,10 +9,12 @@ import { favoritePageStatus } from "../../../services/action/pageService";
 import { getItemAsyncStorage } from "../../../utils/AsyncStorageService";
 import { USER_TOKEN_CACHINNG_KEY } from "../../../../config";
 import NetInfo from "@react-native-community/netinfo";
+import { createRecord, openRealm, updateRecord } from "../../../../database/realmService";
+import { FavoritePageSchema } from "../../../../database/schema/FavouritePageSchema";
 
 
 
-export default function CustomerViewPlaces({ selectedPage } : any) {
+export default function CustomerViewPlaces({ selectedPage }: any) {
   const [userTokenDecoded, setUserTokenDecoded] = useState<any>(null);
 
   useEffect(() => {
@@ -33,7 +35,8 @@ export default function CustomerViewPlaces({ selectedPage } : any) {
   const saveFavoriteStatusToDb = async (pageId: string, businessName: string, isFavorite: boolean) => {
     const state = await NetInfo.fetch();
 
-    if (!state.isConnected) {
+    if (state.isConnected) {
+      //if online save for mogodb
       favoritePageStatus({
         visitorId: userTokenDecoded.user._id,
         visitorEmail: userTokenDecoded.user.email,
@@ -48,10 +51,22 @@ export default function CustomerViewPlaces({ selectedPage } : any) {
           console.error("Error saving favorite:", err);
         });
     } else {
-      
+      try {
+        const realm = await openRealm([FavoritePageSchema]);
+        await createRecord(realm, "FavoritePage", {
+          pageId,
+          pageTitle: businessName,
+          isFavorite,
+          visitorId: userTokenDecoded.user._id,
+          visitorEmail: userTokenDecoded.user.email,
+        });
+        console.log("Favorite status saved locally in Realm");
+        realm.close();
+      } catch (error) {
+        console.error("Realm error saving favorite locally:", error);
+      }
     }
   };
-
 
 
   if (!selectedPage) {

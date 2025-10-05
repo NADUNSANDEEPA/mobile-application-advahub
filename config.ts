@@ -1,4 +1,4 @@
-export const BASE_URL = "https://be6030ac5b50.ngrok-free.app";
+export const BASE_URL = "https://06d4c68b593d.ngrok-free.app";
 export const IS_TESTING = true;
  
 
