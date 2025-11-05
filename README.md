@@ -69,20 +69,21 @@ Ensure you have the following installed:
 
 ## 🚀 Running the Application
 
-### 🔹 Frontend (React Native + Expo)
 
 ```bash
+
+###  🔹Frontend (React Native + Expo
+
 # Build Android development build
 npx eas build --profile development --platform android
 
 # Start Expo with tunneling (recommended for mobile device testing)
 npx expo start --tunnel
 
----
+
+
 
 ### 🔹 Backend
-
-```bash
 
 # Navigate to the backend directory
 cd ./backend
