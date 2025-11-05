@@ -1,7 +1,7 @@
-# 🚗 Mobility-Advahub
+# AdvaHUb
 
 ## 🧭 Overview
-**Mobility-Advahub** is a modular mobile application built with **React Native (Expo)** and a **microservices-based Express.js backend**.  
+**Advahub** is a modular mobile application built with **React Native (Expo)** and a **microservices-based Express.js backend**.  
 The system is designed for scalability, offline synchronization, and seamless media handling.  
 
 ---
