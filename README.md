@@ -78,4 +78,16 @@ npx eas build --profile development --platform android
 # Start Expo with tunneling (recommended for mobile device testing)
 npx expo start --tunnel
 
+---
+
+### 🔹 Backend
+
+```bash
+
+# Navigate to the backend directory
+cd ./backend
+
+# Run all microservices together
+powershell -ExecutionPolicy Bypass -File .\start-all.ps1
+
 
