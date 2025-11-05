@@ -1437,3 +1437,74 @@
 [2025-10-04 15:03:15] [INFO] [Request Received] GET /pages/pages/getPageByOwnerId/68dcfbb862ec0e5300614030
 [2025-10-04 15:03:16] [INFO] [Request Received] GET /pages/activities/retrieve/68dfc88e456676c7d2d95b74?page=1&limit=5
 [2025-10-04 15:03:19] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-10-05 08:41:48] [INFO] ======== API GATEWAY STARTING ========
+[2025-10-05 08:41:48] [INFO] API Gateway listening on port 3000
+[2025-10-05 08:41:48] [INFO] ====================================
+[2025-10-05 08:45:29] [INFO] [Request Received] POST /users/auth/login
+[2025-10-05 08:45:32] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-10-05 08:45:40] [INFO] [Request Received] GET /pages/pages/getPageByOwnerId/68dcfbb862ec0e5300614030
+[2025-10-05 08:45:42] [INFO] [Request Received] GET /pages/activities/retrieve/68e1ca5c999bdcf077acb976?page=1&limit=5
+[2025-10-05 08:46:02] [INFO] [Request Received] POST /pages/activities/publish
+[2025-10-05 08:46:06] [INFO] [Request Received] GET /pages/activities/retrieve/68e1ca5c999bdcf077acb976?page=1&limit=5
+[2025-10-05 08:46:07] [INFO] [Request Received] GET /pages/activities/retrieve/68e1ca5c999bdcf077acb976?page=1&limit=5
+[2025-10-05 08:46:09] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-10-05 08:46:14] [INFO] [Request Received] POST /pages/pages/pageMakeAsFavorite
+[2025-10-05 08:46:21] [INFO] [Request Received] POST /pages/pages/pageMakeAsFavorite
+[2025-10-05 08:46:21] [INFO] [Request Received] POST /pages/pages/pageMakeAsFavorite
+[2025-10-05 08:47:27] [INFO] [Request Received] POST /pages/pages/pageMakeAsFavorite
+[2025-10-05 08:47:28] [INFO] [Request Received] POST /pages/pages/pageMakeAsFavorite
+[2025-10-05 08:52:51] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-10-05 08:53:07] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-10-05 09:07:23] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-10-05 09:07:30] [INFO] [Request Received] POST /pages/pages/pageMakeAsFavorite
+[2025-10-05 09:07:31] [INFO] [Request Received] POST /pages/pages/pageMakeAsFavorite
+[2025-10-05 09:07:32] [INFO] [Request Received] POST /pages/pages/pageMakeAsFavorite
+[2025-10-05 09:07:33] [INFO] [Request Received] POST /pages/pages/pageMakeAsFavorite
+[2025-10-05 09:07:39] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-10-05 09:22:13] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-10-05 09:22:13] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-10-05 09:22:40] [INFO] [Request Received] GET /pages/activities/retrieve/68e1ca5c999bdcf077acb976?page=1&limit=5
+[2025-10-05 09:22:45] [INFO] [Request Received] PUT /pages/activities/activityStatusChange/68e1e2f2d480f0eb34afb642
+[2025-10-05 09:24:05] [INFO] [Request Received] POST /pages/activities/publish
+[2025-10-05 09:24:08] [INFO] [Request Received] GET /pages/activities/retrieve/68e1ca5c999bdcf077acb976?page=1&limit=5
+[2025-10-05 09:24:09] [INFO] [Request Received] GET /pages/activities/retrieve/68e1ca5c999bdcf077acb976?page=1&limit=5
+[2025-10-05 09:24:20] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-10-05 09:25:03] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-10-05 09:26:19] [INFO] [Request Received] POST /users/auth/login
+[2025-10-05 09:26:23] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-10-06 16:05:06] [INFO] ======== API GATEWAY STARTING ========
+[2025-10-06 16:05:06] [INFO] API Gateway listening on port 3000
+[2025-10-06 16:05:06] [INFO] ====================================
+[2025-11-01 15:20:33] [INFO] ======== API GATEWAY STARTING ========
+[2025-11-01 15:20:33] [INFO] API Gateway listening on port 3000
+[2025-11-01 15:20:33] [INFO] ====================================
+[2025-11-01 16:43:39] [INFO] [Request Received] POST /users/auth/login
+[2025-11-01 16:43:42] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:45:26] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:45:26] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:45:26] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:47:37] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:47:37] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:47:37] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:47:43] [INFO] [Request Received] GET /pages/pages/getPageByOwnerId/68dcfbb862ec0e5300614030
+[2025-11-01 16:47:44] [INFO] [Request Received] GET /pages/activities/retrieve/68e1ca5c999bdcf077acb976?page=1&limit=5
+[2025-11-01 16:47:46] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:48:56] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:48:56] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:48:56] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:49:00] [INFO] [Request Received] GET /pages/activities/retrieve/68e1ca5c999bdcf077acb976?page=1&limit=5
+[2025-11-01 16:52:06] [INFO] [Request Received] POST /users/auth/register
+[2025-11-01 16:52:18] [INFO] [Request Received] POST /users/auth/register
+[2025-11-01 16:52:27] [INFO] [Request Received] POST /users/auth/login
+[2025-11-01 16:52:28] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:53:09] [INFO] [Request Received] GET /pages/pages/getPageByOwnerId/68dcfbb862ec0e5300614030
+[2025-11-01 16:53:10] [INFO] [Request Received] GET /pages/activities/retrieve/68e1ca5c999bdcf077acb976?page=1&limit=5
+[2025-11-01 16:54:22] [INFO] [Request Received] POST /pages/activities/publish
+[2025-11-01 16:55:16] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:55:16] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:55:16] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 16:55:59] [INFO] [Request Received] POST /pages/pages/pageMakeAsFavorite
+[2025-11-01 16:57:42] [INFO] [Request Received] GET /pages/pages/getPagesBasedOnCountry/srilanka?page=1&limit=5
+[2025-11-01 17:25:06] [INFO] ======== API GATEWAY STARTING ========
+[2025-11-01 17:25:06] [INFO] API Gateway listening on port 3000
+[2025-11-01 17:25:06] [INFO] ====================================

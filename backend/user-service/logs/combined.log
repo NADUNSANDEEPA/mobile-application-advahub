@@ -186,3 +186,9 @@
 [2025-10-04 13:53:58] [INFO] User logged in: naduns@example.com
 [2025-10-04 15:02:53] [INFO] User logged in: naduns@example.com
 [2025-10-04 15:02:55] [INFO] User logged in: naduns@example.com
+[2025-10-05 08:45:30] [INFO] User logged in: naduns@example.com
+[2025-10-05 09:26:22] [INFO] User logged in: naduns@example.com
+[2025-11-01 16:43:42] [INFO] User logged in: naduns@example.com
+[2025-11-01 16:52:06] [WARN] Registration failed: email already registered - johndoe99@gmail.com
+[2025-11-01 16:52:19] [INFO] User registered successfully: johndoe996@gmail.com
+[2025-11-01 16:52:28] [INFO] User logged in: naduns@example.com

@@ -64,3 +64,4 @@ export const deleteAllRecords = (realm, schemaName) => {
     realm.delete(all);
   });
 };
+ 

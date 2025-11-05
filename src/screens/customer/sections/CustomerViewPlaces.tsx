@@ -53,14 +53,30 @@ export default function CustomerViewPlaces({ selectedPage }: any) {
     } else {
       try {
         const realm = await openRealm([FavoritePageSchema]);
-        await createRecord(realm, "FavoritePage", {
-          pageId,
-          pageTitle: businessName,
-          isFavorite,
-          visitorId: userTokenDecoded.user._id,
-          visitorEmail: userTokenDecoded.user.email,
-        });
-        console.log("Favorite status saved locally in Realm");
+
+        // Check if favorite record exists
+        const existingRecord = realm.objectForPrimaryKey("FavoritePage", pageId);
+        if (existingRecord) {
+          // Update existing record
+          await updateRecord(realm, "FavoritePage", pageId, {
+            pageTitle: businessName,
+            isFavorite,
+            visitorId: userTokenDecoded.user._id,
+            visitorEmail: userTokenDecoded.user.email,
+          });
+          console.log("Favorite status updated locally in Realm");
+        } else {
+          // Create new favorite record
+          await createRecord(realm, "FavoritePage", {
+            pageId,
+            pageTitle: businessName,
+            isFavorite,
+            visitorId: userTokenDecoded.user._id,
+            visitorEmail: userTokenDecoded.user.email,
+          });
+          console.log("Favorite status saved locally in Realm");
+        }
+
         realm.close();
       } catch (error) {
         console.error("Realm error saving favorite locally:", error);
